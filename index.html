@@ -48,44 +48,78 @@
         <!-- Image and text -->
 
     </header>
-    <div class="container">
-        <h1 id="top">Welcome to Super_thing page</h1>
-        <hr>
-        <div class="row">
-            <div class="col-7">
-                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/FziygHMVeIo"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="col-5">
-                <p>oto film</p>
-            </div>
+    <div class="jumbotron jumbotron-fluid" id="jumbotron">
+        <div class="container">
+            <h1 id="top">Welcome to Super_thing page</h1>
+            <p class="lead text-center">This is a modified jumbotron that occupies the entire horizontal space of its
+                parent.
+            </p>
         </div>
-        <div class="row">
-            <div class="col">
-                <p>If You are interested please input your eamil:</p>
-                <form id="form">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input id="email" type="email" class="form-control" id="exampleInputEmail1"
-                            aria-describedby="emailHelp" placeholder="John@email.xyz">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                            else.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <input type="button" id="submit" class="btn btn-primary">Submit</input>
-                </form>
-            </div>
-        </div>
-
     </div>
+    <div id="main_page">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://i.insider.com/5c70544b1631a32c7842f1f2?width=750&format=jpeg&auto=webp"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.bestconsumerreviews.com/wp-content/uploads/2013/12/Veggie-Peeler.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.bbcgoodfood.com/sites/default/files/review/guide-image/2016/03/peelers-hero.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row pt-4">
+                <div class="col-12 col-sm-7 text-center border">
+                    <iframe id="video" width="auto" height="100%" src="https://www.youtube.com/embed/FziygHMVeIo"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-12 col-sm-5 font-weight-lighter">
+                    <p>Multifunctional peeler with 360 degree rotatable blades.</p>
+                    <p>It is a perfect cooking tool for every
+                        housewife.
+                    </p>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col">
+                    <p>If You are interested please input your eamil:</p>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input name="email" id="email" type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="John@email.xyz">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <input type="submit" id="submit" value="Submit" class="btn btn-primary"></input>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

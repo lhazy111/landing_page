@@ -17,7 +17,6 @@
     <header id="header">
         <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a class="navbar-brand ml-4" href="#">
-                <img id="header-img" src="Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 Super_Thing
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
@@ -37,11 +36,7 @@
                         <a class="nav-link" href="#form">Sign</a>
                     </li>
                 </ul>
-                <!--ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Right menu <span class="sr-only">(current)</span></a>
-                    </li>
-                </ul-->
+
             </div>
         </nav>
 
@@ -50,7 +45,7 @@
     </header>
     <div class="jumbotron jumbotron-fluid" id="jumbotron">
         <div class="container">
-            <h1 id="top">Welcome to Super_thing page</h1>
+            <h1 id="top" class="text-center">Welcome to Super_thing page</h1>
             <p class="lead text-center">This is a page about veggie peelers
             </p>
         </div>
@@ -64,9 +59,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row d-inline-flex justify-content-between">
-
-                <div class="flex-column col-12 col-sm-4">
+            <div class="row">
+                <div class="d-flex justify-content-center col-12 col-sm-4">
                     <div class="card" style="width: 18rem;">
                         <img src="https://i.insider.com/5c70544b1631a32c7842f1f2?width=600&format=jpeg&auto=webp"
                             class="card-img-top" alt="...">
@@ -81,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-4">
+                <div class="d-flex justify-content-center col-12 col-sm-4">
                     <div class="card" style="width: 18rem;">
                         <img src="https://i.insider.com/5c70522b2628984d231e5b0a?width=1300&format=jpeg&auto=webp"
                             class="card-img-top" alt="...">
@@ -94,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-4">
+                <div class="d-flex justify-content-center col-12 col-sm-4">
                     <div class="card" style="width: 18rem;">
                         <img src="https://i.insider.com/5c7052792628984324758f94?width=1300&format=jpeg&auto=webp"
                             class="card-img-top" alt="...">
@@ -109,12 +103,16 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col mt-5 text-center border-bottom">
+                    <h2>Watch the video</h2>
+                </div>
+            </div>
 
-
-            <div class="row pt-4">
+            <div class="row pt-4 pb-4 border-left border-right">
                 <div class="col-12 col-sm-7 text-center ">
-                    <iframe id="video" width="auto" height="100%" src="https://www.youtube.com/embed/FziygHMVeIo"
-                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    <iframe id="video" height="100%" src="https://www.youtube.com/embed/FziygHMVeIo" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
                 <div class="col-12 col-sm-5 font-weight-lighter">
@@ -124,7 +122,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row pt-4">
+            <div class="row pt-4 border-top">
                 <div class="col mb-5">
                     <p>If You are interested please input your email:</p>
                     <form id="form" action="https://www.freecodecamp.com/email-submit">

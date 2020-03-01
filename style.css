@@ -23,7 +23,7 @@ h1{
 @media (max-width: 576px) { 
     #main_page{
         text-align: center;
-        font-size: 2em;
+        font-size: 1em;
     }
  }
 
